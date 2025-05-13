@@ -1,0 +1,9 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const bookBtn = document.querySelector(".btn-primary");
+  
+    bookBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      alert("Booking functionality not implemented yet.");
+    });
+  });
+  
