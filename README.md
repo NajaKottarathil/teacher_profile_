@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Teacher Profile Web App
 
 This project is a responsive teacher profile page with a booking form and a basic backend API for listing courses per student and per teacher.
@@ -70,3 +71,7 @@ To learn React, check out the React documentation.
 
 ## License
 This project is open-source and available under the MIT License.
+=======
+# teacher_profile_
+Responsive Teacher Profile Page
+>>>>>>> c93252cff88340a55f07afefdde645cb6522bc47
