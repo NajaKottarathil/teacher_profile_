@@ -23,6 +23,9 @@ A responsive teacher profile website built using **React.js**. This project demo
    ```bash
    python backend.py
    ```
+   
+   OR
+   
     ```bash
    flask run
    ```
