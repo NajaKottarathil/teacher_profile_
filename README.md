@@ -59,10 +59,6 @@ A responsive teacher profile website built using **React.js**. This project demo
 - Ongoing course
 - Student feedback
 
-## Screenshots:
-![Profile Page](/assets/screenshot1.jpg)  
-![Course List](/assets/screenshot2.jpg)
-
 ## How to Run:
 
 1. Clone the repository:  
@@ -75,8 +71,15 @@ A responsive teacher profile website built using **React.js**. This project demo
    npm install
    
 4. Start the code
-   npm start 
+   npm start
 
-# teacher_profile_
-Responsive Teacher Profile Page
->>>>>>> c93252cff88340a55f07afefdde645cb6522bc47
+## Learn More
+
+You can learn more in the [Create React App documentation](https://create-react-app.dev/).
+
+To learn React, check out the [React documentation](https://react.dev/).
+
+## License
+
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
