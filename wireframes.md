@@ -5,10 +5,10 @@
 ### Wireframe 1: Teacher Profile Overview
 ```
 +------------------------------------------------------+
-| [Teacher Photo]   Alex Martin                        |
-|                  Math Professor                      |
+| [Teacher Photo] Abdullah Jassim                      |
+|                 Arabic Professor                     |
 |                                                      |
-| Bio:                                                |
+| Bio:                                                 |
 | Alex is a dedicated math teacher...                  |
 |                                                      |
 | [Book a Session Button]                              |

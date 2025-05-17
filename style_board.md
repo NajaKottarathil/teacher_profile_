@@ -14,11 +14,11 @@
 ## UI Element: Teacher Card Mockup
 ```
 +------------------------------------------------------+
-| [Teacher Photo]   Alex Martin                        |
-|                  Math Professor                      |
+| [Teacher Photo]  Abdullah Jassim                     |
+|                  Arabic Professor                    |
 |                                                      |
-| Bio:                                                |
-| Alex is a dedicated math teacher...                  |
+| Bio:                                                 |
+| Abdullah Jassim is a dedicated arabic teacher..      |
 |                                                      |
 | [Book a Session Button]                              |
 +------------------------------------------------------+

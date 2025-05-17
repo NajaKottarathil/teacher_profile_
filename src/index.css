@@ -1,0 +1,163 @@
+:root {
+  --orange: #FE5D26;
+  --light-orange: #F2C078;
+  --cream: #FAEDCA;
+  --light-green: #C1DBB3;
+
+  --rgb-orange: rgb(254, 93, 38);
+  --rgb-light-orange: rgb(242, 192, 120);
+  --rgb-cream: rgb(250, 237, 202);
+  --rgb-light-green: rgb(193, 219, 179);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(135deg, var(--orange), var(--light-orange), var(--cream), var(--light-green));
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  color: #333;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+/* Video placeholder cube style */
+.video-placeholder {
+  width: 320px;
+  height: 320px;
+  background: var(--cream);
+  box-shadow:
+    4px 4px 12px rgba(254, 93, 38, 0.45),
+    inset 0 0 15px rgba(250, 237, 202, 0.85);
+  border-radius: 12px;
+  margin: 0 auto 1.5rem auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.video-placeholder:hover {
+  box-shadow:
+    6px 6px 18px rgba(254, 93, 38, 0.6),
+    inset 0 0 20px rgba(250, 237, 202, 1);
+}
+
+/* Embedded iframe video to fill the placeholder */
+.video-placeholder iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: var(--orange);
+  border: none;
+  padding: 0.5rem 1.25rem;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--rgb-orange);
+}
+
+/* Container and cards styling */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(255 255 255 / 0.9);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+/* Courses section */
+.courses-section {
+  margin-top: 2rem;
+}
+
+.courses-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--orange);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.courses-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  flex: 1 1 200px;
+  max-width: 250px;
+}
+
+.course-card .card {
+  background: var(--light-green);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(193, 219, 179, 0.6);
+  transition: transform 0.2s ease;
+}
+
+.course-card .card:hover {
+  transform: translateY(-5px);
+}
+
+.course-code {
+  color: var(--orange);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.course-name {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Typography */
+h2 {
+  color: var(--orange);
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+h5 {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--light-orange);
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
